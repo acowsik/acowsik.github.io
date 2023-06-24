@@ -370,7 +370,7 @@ To do this we can bucket the $$y$$ axis into a few bins and then look at the err
 
 ### Is it reasonable to say the Manhattan distance is the $$L_1$$ distance 
 
-I think so! It seems like for the most part the $$L_1$$ distance outperforms one of the few distance metrics more popular than it ($$L_2$$) but there are a few places where the $$L_2$$ distance might be reasonable instead.
+I think so! It seems like for the most part the $$L_1$$ distance outperforms one of the few distance metrics more popular than it ($$L_2$$) but there are a few places where the $$L_2$$ distance might be reasonable instead. One limitation of this discussion is that our selection of reference points to compute distances between could have some bias and I didn't really try other methods of generating this set. I won't go too much into it but as a thought experiment, if we added a lot of points along a long diagonal road, this might make the $$L_2$$ distanace look better. That's not to say that this doesn't conclude anything but it's certainly worth thinking about when interpreting the results and maybe fun to play around with later. Visually it looks like the intersection points of roads provide good coverage so I'll say at a first glance the $$L_1$$ distance tentatively looks better even given this qualification.
 
 ### Data Sources and Acknowledgements
 
