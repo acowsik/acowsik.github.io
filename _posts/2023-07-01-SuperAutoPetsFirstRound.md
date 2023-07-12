@@ -105,7 +105,7 @@ Here's a log including pets with nondeterministic triggers (🐜 and 🦟)
     0.5833333333333334
 
 
-The above log reflects three possibilities for which pet the Mosquito deals damage two, and then a second branch reflecting which teammate the ant gives health to. It looks like in the case where the mosquito hits the ant, then team 1 wins, but otherwise it ends in a draw.
+The above log reflects three possibilities for which pet the Mosquito deals damage to, and then a second branch reflecting which teammate the ant gives health to. It looks like in the case where the mosquito hits the ant, then team 1 wins, but otherwise it ends in a draw.
 
 There are also non-deterministic buy triggers.
 
