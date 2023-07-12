@@ -294,6 +294,10 @@ It does look for both graphs like there is less variance as the graph distance g
 
 Near 0 we see more variance in the ratios (maybe because small noise or error components end up being larger percentages of the graph distances).
 
+There also seem to be certain visual effects (looks like there are certain sets of points in the plot that form patterns or lines) that I'd think are probably a result of certain points corresponding to subpaths of shortest paths represented by other points in the plot.
+
+We can look at some summary statistics at different "true manhattan" distance ranges.
+
     > 17000
     L1 mean: 1.056 L2 mean: 0.934
     L1 std: 0.047 L2 std: 0.044
