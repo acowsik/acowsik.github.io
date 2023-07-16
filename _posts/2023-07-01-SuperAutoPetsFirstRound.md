@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Super Auto Pets First Round Teams and Equillibria"
+title: "Super Auto Pets First Round Teams and Equilibria"
 author: "Rohan Rao"
 categories: SuperAutoPets
 image: SAP_img.png
