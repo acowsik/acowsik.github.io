@@ -15,7 +15,7 @@ A popular training tool for this sport is a MoonBoard (https://www.moonboard.com
 
 <img src="assets/img/moonboard_route.jpg" alt="Drawing" style="width: 500px;"/>
 
-The left hand side indicates the moonboard holds and layout and the right hand side indicates a single route on the moonboard (called Wuthering Heights by Ben Moon). The circled holds are the holds that the climber is allowed to use for the problem. The climber starts using the hold on the green circle and ends on the red circle. We can refer to the holds on the board by using the coordinates $$\{A,...,K\} \times \{1,...,18\}$$
+The first image at the top of this post indicates the moonboard holds and layout and the one directly above indicates a single route on the moonboard (called Wuthering Heights by Ben Moon). The circled holds are the holds that the climber is allowed to use for the problem. The climber starts using the hold on the green circle and ends on the red circle. We can refer to the holds on the board by using the coordinates $$\{A,...,K\} \times \{1,...,18\}$$
 
 ### Climbing Difficulty Scales
 
