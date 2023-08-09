@@ -196,7 +196,7 @@ For each of our three models we look at the confusion matrices of the results.
     
 
 
-It looks like generally we seem to predict harder grades for harder routes (but have a hard time predicting anything harder than 7C).
+It looks like generally we seem to predict harder grades for harder routes (but have a hard time predicting anything harder than 7C). It looks like there are also some gaps at certain grades (6C+, 7B) where we never predict those grades. I haven't thought too much about this but I'd guess that it is an artifact of using an ordered model and data that isn't linearly separable.
 
 ### What if we allow positive scores
 This feels unintuitive in terms of our model (i.e adding a hold could make a climb harder) but
