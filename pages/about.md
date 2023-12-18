@@ -4,5 +4,5 @@ title: About
 permalink: /about
 ---
 
-This is a personal blog where I write about my hobbies (often in jupyter notebook-y form). I'll try and keep the posts relatively short but link the source notebook as a reference. Feel free to point out bugs or bad ideas on the github repo! 
+This is my personal blog where I'll discuss, usually by simulation and presentation, some ideas I've had. Please expect ideas with a short read time which took me all to long to write. This is my academic therapy.
 

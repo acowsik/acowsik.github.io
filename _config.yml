@@ -10,9 +10,9 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Manhattan Distance"
-description:	       "a jupyter notebook lifestyle blog"
-author:              "Rohan Rao"
+title:		           "An Incomplete Bog"
+description:	       "A blog about the physics, computer science, and other malformed or incomplete ideas I have so I can put minimal effort into them but still get them out of my system."
+author:              "Aditya Cowsik"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
