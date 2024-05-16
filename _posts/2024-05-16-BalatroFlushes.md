@@ -59,13 +59,15 @@ I won't simulate all the possibilities but I'll pick enough to paint a picture
 <span style="font-family: 'CustomFont'; font-size: 20px;"> $$ \mathbb{V}((h,r)) = \max_{a}{\mathbb{Q}((h,r),a)} $$</span>
 <br><br>
 <span style="font-family: 'CustomFont'; font-size: 20px;">$$p(c,r) = \binom{|r|}{|c|}^{-1}\prod_{i = 1}^4 \binom{r[i]}{c[i]}$$ </span>
+<br><br>
 <span style="font-family: 'CustomFont'; font-size: 20px;">$$c$$ is the vector of cards we draw after <font color='red'>discarding</font> or <font color='blue'>playing</font>. In the above formulation the player picks their vector of cards to play or discard $$a$$ and if $$a$$ has a flush we'll <font color='blue'> play </font> it, otherwise <font color='red'>discard</font> it. (unlike the game where you can misclick and ruin a great run). $$p(c,r)$$ is the probability of drawing $$c$$ from the remaining deck $$r$$. </span>
 
 <span style="font-family: 'CustomFont'; font-size: 20px;"> If we have a fixed number of <font color='blue'>hands</font> and <font color='red'>discards</font> unlike the infinite case above we just need to include the <font color='blue'>plays</font> and <font color='red'>discards</font> left in $$\mathbb{V}$$ and $$\mathbb{Q}$$ which I won't write out because its verbose (but similar in principle). </span>
 
 <span style="font-family: 'CustomFont'; font-size: 20px;"> Once we have $$\mathbb{V}((h, r))$$ for all starting possibilities of $$(h,r)$$ we can get </span>
 
-<span style="font-family: 'CustomFont'; font-size: 20px;"> $$\mathbb{E}(flushes\_played) = \sum_{s} p(s)\mathbb{V}(s)$$ </span>>
+<span style="font-family: 'CustomFont'; font-size: 20px;"> $$\mathbb{E}(flushes\_played) = \sum_{s} p(s)\mathbb{V}(s)$$ </span>
+<br>
 
  <span style="font-family: 'CustomFont'; font-size: 20px;"> It's worth noting that winning a round just requires a player to score enough points and winning in fewer <font color='blue'>hands</font> gives you a round-end bonus and our version of optimal play functionally ignores this (we just care about the potential number of playable flushes in expectancy). </span>
 
