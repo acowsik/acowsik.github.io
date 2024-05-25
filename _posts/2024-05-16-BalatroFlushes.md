@@ -208,9 +208,16 @@ One interesting joker that affects playing flushes is Four Fingers. It makes it 
 Another way that players optimize their decks to play flushes is by modifying the suits of the cards in their deck.
 
 <h3> Smear Joker / Checkered Deck </h3>
-The checkered deck and the smear joker
-    
- <div class="image-container" style="display: flex; width: 40%; margin: 0 auto;">
+The checkered deck
+ <div style="display: flex; width: 40%;">
+    <figure width="30%">
+        <img src="assets/img/checkered_deck_desc.png" style="width: 300px">
+    </figure>
+</div>
+<br><br>   
+And the smeared joker
+<br><br>
+<div class="image-container" style="display: flex; width: 40%; margin: 0 auto;">
     <figure width="30%">
         <img src="assets/img/smear.png" style="width: 100px">
         <figcaption style="font-family: 'CustomFont';text-align: center;">Smear Joker</figcaption>
