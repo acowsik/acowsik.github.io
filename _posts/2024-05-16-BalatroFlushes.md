@@ -3,7 +3,7 @@ layout: post
 title: "How Many Balatro Flushes Should You Expect To Play"
 author: "Rohan Rao"
 categories: Games
-image: balatro_flush_thumbnail.001.png
+image: balatro_thumbnail.png
 ---
 
 <style>
@@ -112,16 +112,8 @@ Some vouchers or jokers modify these - such as:
 
 <div style="display: inline-flex; width: 100%;">
     <figure width="33%">
-        <img src="assets/img/juggler.png" style="width: 100px;">
-        <figcaption style="font-family: 'CustomFont';text-align: center; color: blue;">Juggler</figcaption>
-    </figure>
-    <figure width="33%">
-        <img src="assets/img/hand.png" style="width: 100px">
-        <figcaption style="font-family: 'CustomFont';text-align: center; color: blue;">Grabber</figcaption>
-    </figure>
-    <figure width="33%">
-        <img src="assets/img/nacho.png" style="width: 100px">
-        <figcaption style="font-family: 'CustomFont';text-align: center; color: blue;">Nacho Tong</figcaption>
+        <img src="assets/img/plus1hand.png" style="width: 300px;">
+        <figcaption style="font-family: 'CustomFont';text-align: center; color: blue;">Juggler,Grabber, and Nacho Tong</figcaption>
     </figure>
 </div>
 <br><br>
@@ -131,16 +123,8 @@ And also
 <br>
 <div style="display: flex; width: 40%;">
     <figure width="30%">
-        <img src="assets/img/drunken.png" style="width: 100px">
-        <figcaption style="font-family: 'CustomFont';text-align: center; color: red;">Drunkard</figcaption>
-    </figure>
-    <figure width="30%">
-        <img src="assets/img/discard.png" style="width: 100px">
-        <figcaption style="font-family: 'CustomFont';text-align: center; color: red;">Wasteful</figcaption>
-    </figure>
-    <figure width="30%">
-        <img src="assets/img/discard2.png" style="width: 100px">
-        <figcaption style="font-family: 'CustomFont';text-align: center; color: red;">Recyclomancy</figcaption>
+        <img src="assets/img/plus1disc.png" style="width: 300px">
+        <figcaption style="font-family: 'CustomFont';text-align: center; color: red;">Drunkard,Wasteful, and Recyclomancy</figcaption>
     </figure>
 </div>
 <br><br>
@@ -162,6 +146,12 @@ The first situation I'll solve is the default 8 card hand size deck. I included 
 The above result passes a few basic sanity checks - the marginal <font color='blue'>hand</font> is better than the marginal <font color='red'>discard</font> (but here not by much). And more <font color='blue'>hands</font> + <font color='red'>discards</font> is better. 
 
 <h3> Paintbrush</h3>
+<div class="image-container" style="display: flex; width: 40%; margin: 0 auto;">
+    <figure width="30%">
+        <img src="assets/img/paintbrush_easel.png" style="width: 200px">
+        <figcaption style="font-family: 'CustomFont';text-align: center;">Paintbrush, Palette (+1 Hand Size)</figcaption>
+    </figure>
+</div>
 
 Beyond the 8 card hand size, there are a few vouchers increase your hand size - one example of them is paintbrush which increases hand size by 1 - we'll try a few of the above options but with 9 card hands. (Technically you can stack another voucher or a joker to keep growing hand size but I think these situations are probably less common in practice so I chose not to look at them for the sake of time) (though we could solve for them with the exact same approach).
 
@@ -190,12 +180,8 @@ All the above results can shed some light on a few jokers that have us trade som
 
 <div class="image-container" style="display: flex; width: 40%; margin: 0 auto;">
     <figure width="30%">
-        <img src="assets/img/merry_andy.png" style="width: 100px">
-        <figcaption style="font-family: 'CustomFont';text-align: center;">Merry Andy</figcaption>
-    </figure>
-    <figure width="30%">
-        <img src="assets/img/troubador.png" style="width: 100px">
-        <figcaption style="font-family: 'CustomFont';text-align: center;">Troubadour</figcaption>
+        <img src="assets/img/troubador_and_merry_andy.png" style="width: 200px">
+        <figcaption style="font-family: 'CustomFont';text-align: center;">Troubadour and Merry Andy</figcaption>
     </figure>
 </div>
 <br><br>
@@ -253,20 +239,8 @@ some tarot cards modify the suits of cards in your deck. There are 4 I looked at
 
 <div class="image-container" style="display: flex; width: 50%; margin: 0 auto;">
     <figure width="25%">
-        <img src="assets/img/sun.png" style="width: 100px">
-        <figcaption style="font-family: 'CustomFont';text-align: center;">Sun</figcaption>
-    </figure>
-    <figure width="25%">
-        <img src="assets/img/moon.png" style="width: 100px">
-        <figcaption style="font-family: 'CustomFont';text-align: center;">Moon</figcaption>
-    </figure>
-    <figure width="25%">
-        <img src="assets/img/stars.png" style="width: 100px">
-        <figcaption style="font-family: 'CustomFont';text-align: center;">Star</figcaption>
-    </figure>
-        <figure width="25%">
-        <img src="assets/img/world.png" style="width: 100px">
-        <figcaption style="font-family: 'CustomFont';text-align: center;">World</figcaption>
+        <img src="assets/img/tarot_ex.png" style="width: 400px">
+        <figcaption style="font-family: 'CustomFont';text-align: center;">Star (Diamond), Moon (Club), Sun (Heart), World (Spade) </figcaption>
     </figure>
 </div>
 
