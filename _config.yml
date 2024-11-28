@@ -12,7 +12,7 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Manhattan Distance"
+title:		           "The Brooklyn Distance"
 description:	       "a jupyter notebook lifestyle blog"
 author:              "Rohan Rao"
 
