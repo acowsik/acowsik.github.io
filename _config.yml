@@ -4,7 +4,7 @@
 paginate:            10
 
 # Build settings
-url:                 "https://4tywon.github.io"
+url:                 "https://www.brooklyndistance.com"
 markdown:            kramdown
 mathjax:             yes
 highlighter:         rouge
