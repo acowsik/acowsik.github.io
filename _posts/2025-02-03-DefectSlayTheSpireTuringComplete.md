@@ -85,7 +85,7 @@ HALT
 
 here's a program that loops forever
 
-`program = "1" data = "0"`
+`program = "1" data = "1"`
 
 
 ```
@@ -119,7 +119,7 @@ The `actions` we'll allow enemies to do on their turn are in the table below. I'
 |Summon Minions| Gremlin Leader, Reptomancer|Explained Below|<img src="assets/img/buff.png" width="30" align="center"/>|
 |Add Void| Awakened One, Corrupt Heart|Add Void to player discard|<img src="assets/img/debuff.png" width="30" align="center" />|
 |Anger|Angry Gremlin|Each damage dealt to enemy increases enemy `strength`|<img src="assets/img/anger.png" width="30" align="center" />|
-|malleable|snake plant|Each damage dealt to enemy increases enemy `dexterity`|<img src="assets/img/malleable.png"  width="30" align="center"  />|
+|malleable|snake plant|Each damage dealt to enemy causes enemy to gain block|<img src="assets/img/malleable.png"  width="30" align="center"  />|
 |peace|NEW|skills played increases enemy `dexterity`|<img src="assets/img/peace.png" width="30" align="center" />|
 |split| slime boss|when reduced to $$\leq 1/2$$ health, cancel actions and split into two slimes with hp maching current hp|<img src="assets/img/split.png" width="30" align="center"   />|
 |shifting| transient|damage dealt to enemy decreases enemy's attack `strength` this turn|<img src="assets/img/shifting.png" width="30" align="center"  />|
