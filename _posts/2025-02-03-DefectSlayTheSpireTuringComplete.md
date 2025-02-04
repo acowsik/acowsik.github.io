@@ -167,7 +167,7 @@ Let's say an enemy has strength $$s$$ and dexterity $$d$$, and starts each turn 
 |||Summon minion attacking for `s + 1` with `2(d + 1)` HP with 2 `malleable` and `fading`|||
 |||Summon minion attacking for `s + 1` with `2(d + 1) + 3` HP with `anger` and `fading`|||
 
-and some details about `Support Slime`. The slime will be attacking for $$s + 7$$, will have hp of $$4d + 10$$, will increase `dexterity` of the main enemy by 1, and die at the end of its turn. It however will split/get interrupted if brought to half health (like other slimes). It will split into two slimes where one of the slimes will raise the main enemy's `strength` by 1. Here's a visual:
+and some details about `Support Slime`. The slime will be attacking for $$ s + 4$$, will have hp of $$4d + 14$$, will increase `dexterity` of the main enemy by 1, and die at the end of its turn. It however will split/get interrupted if brought to half health (like other slimes). It will split into two slimes where one of the slimes will raise the main enemy's `strength` by 1. Here's a visual:
 
 <img src="assets/img/slime_def.png"  />
 
@@ -211,7 +211,7 @@ For cards in deck we'll only have 4 cards (so every turn we draw the same 4 card
 `Zap`, `Cold Snap`, `Quick Slash`, `Multicast`
 <img src="assets/img/initial_defect_deck.png" />
 
-For buffs/debuffs, lets initialize $$-11$$ strength and $$-1$$ focus. (this will keep numbers nicer). Notably this means `Lightning` does $$2$$ passive and $$7$$ evoke damage. `Frost` blocks $$1$$ passive and $$4$$ when evoked. `Quick Slash` only does $$3$$ damage ($$+6$$ strength from Fasting but $$-12$$ strength debuffed applied to a base damage of $$9$$)
+For buffs/debuffs, lets initialize $$-11$$ strength and $$-1$$ focus. (this will keep numbers nicer). Notably this means `Lightning` does $$2$$ passive and $$7$$ evoke damage. `Frost` blocks $$1$$ passive and $$4$$ when evoked. `Quick Slash` only does $$3$$ damage ($$+6$$ strength from Fasting but $$-11$$ strength debuffed applied to a base damage of $$8$$)
 
 Finally, in our game state the Defect has 1 HP left.
 
@@ -243,7 +243,7 @@ It's clear that if the defect has no orbs left then the defect loses. We'll show
 
 <b> (A) </b>
 
-In this situation we are facing $$s + 4$$ damage from a minion with $$4d + 14$$ hp. We have $$s$$ frost orbs and $$d$$ lightning orbs. To survive we either need to block $$s + 7$$ damage or deal $$2d + 7$$ damage to get the enemy to split. We have one energy available so we can play only 1 card.
+In this situation we are facing $$ s + 4$$ damage from a minion with $$4d + 14$$ hp. We have $$s$$ frost orbs and $$d$$ lightning orbs. To survive we either need to block $$ s + 4$$ damage or deal $$2d + 7$$ damage to get the enemy to split. We have one energy available so we can play only 1 card.
 
 <b> If our front orb is `Lightning`: </b>
 
@@ -273,7 +273,7 @@ so at the end of this turn the enemy is net $$-1$$ `dex`. This means that we are
 <b>  If our front orb is `Frost`: </b>
 <img src="assets/img/lb.png" />
 
-then we have no way to deal $$2d + 7$$ damage, so we have to block $$s + 7$$. `Loop` blocks 1 for us, and if we evoke our front orb using `Multicast` we can block $$4$$ immediately and $$(s - 1)$$ at the end of turn giving us $$s + 4$$ total block which saves us.
+then we have no way to deal $$2d + 7$$ damage, so we have to block $$s + 4$$. `Loop` blocks 1 for us, and if we evoke our front orb using `Multicast` we can block $$4$$ immediately and $$(s - 1)$$ at the end of turn giving us $$s + 4$$ total block which saves us.
 
 On the enemy second turn the slime deals damage  (which we block), then buffs the main enemy, then dies. We get a `Void` in our discard. The main enemy debuffs
 
